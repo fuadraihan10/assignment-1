@@ -1,8 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
 /* ----all-style----- */
+*{
+    padding: 0px;
+    margin: 0px;
+}
 .font-azeret-mono{
     font-family: "JetBrains Mono", monospace;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
+}
+/* reusable */
+p{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* -----header------- */
+/* ---nav---- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 38px 150px;
+    align-items: center;
+}
+nav h1{
+    font-size: 28px;
+    font-weight: 800;
+}
+nav button{
+    border: 1px solid rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    width: 244px;
+    height: 57px;
+    border-radius: 8px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    background-color: white;
+}
+/* ----banner---- */
+.banner{
+    background-image: url("assets/Hero-bg.png");
+    width: auto;
+    height: 652px;
+    display: flex;
+    justify-content: center;
+
+}
+.banner-child{
+    margin:26px auto 45px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-child div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 998px;
+    height: 309px;
+}
+.banner img{
+    width: 240.28px;
+    height: 240px;
+    padding-bottom: 32px;
+    
+}
+.banner h1{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+    width: 998px;
+    height: 136px;
+}
+.banner-p{
+    width: 802px;
+    height: 52px;
+    margin-bottom: 32px;
+}
+.banner a{
+    color: white;
+    text-decoration: none;
+    gap: 10;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 16px 24px 16px 24px;
 }
