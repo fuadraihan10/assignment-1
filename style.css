@@ -285,17 +285,17 @@ iframe{
     font-size: 18px;
 }
 /* ----support--- */
-.support{
+#support{
     background-image: url("assets/handshake.jpg");
     width: 1140px;
     height: 313px;
     background-position: center;
     margin:0px auto 80px auto;
 }
-.support h2{
+#support h2{
     color: white;
 }
-.support p{
+#support p{
     margin:16px auto 24px auto;
     color: white;
     width: 606px;
@@ -338,4 +338,25 @@ iframe{
     font-size: 20px;
     font-weight: 600;
     
+}
+/* -----foioter----- */
+footer{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.footerdiv{
+    margin:32px auto;
+    display: flex;
+    width: 1140px;
+    height: 36px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer h4{
+    font-size: 20px;
+    font-weight: 600;
 }
