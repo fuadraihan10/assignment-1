@@ -142,13 +142,14 @@ nav button{
     text-align: left;
     width: 468px;
     height: 52px;
+
 }
 .why-web-dev-card h3{
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
     font-weight: 700;
     text-align: left;
-    width: 390px;
+    width: 400px;
     height: 72px;
 }
 
